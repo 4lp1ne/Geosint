@@ -91,7 +91,6 @@ You will be asked to provide an image input type, and then the script will perfo
 ## Contributing
 
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
-.
-```
+
 
 
