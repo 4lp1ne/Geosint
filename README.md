@@ -3,6 +3,8 @@
 
 This project uses the **GeoCLIP** model to predict GPS coordinates from images. It supports image input via file paths or URLs, generates GPS predictions, displays Google Maps links, and creates interactive maps or world maps. The results can be saved to a CSV file for further use.
 
+based on https://github.com/TIBHannover/GeoEstimation
+
 ## Features
 
 - **Image Input:** Accepts images through file paths or URLs.
