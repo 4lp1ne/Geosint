@@ -39,8 +39,8 @@ pip install torch geoclip Pillow requests folium matplotlib cartopy
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/geo-clip-prediction.git
-   cd geo-clip-prediction
+   git clone https://github.com/4lp1ne/geosint
+   cd geosint
    ```
 
 2. **Create and activate a virtual environment** (optional but recommended):
