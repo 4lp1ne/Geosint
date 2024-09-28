@@ -25,7 +25,7 @@ To run the project, you'll need the following Python packages:
 
 You can install these dependencies by running the following command:
 
-```bash
+bash
 
 pip install torch geoclip Pillow requests folium matplotlib cartopy
 
@@ -42,7 +42,8 @@ Create and activate a virtual environment (optional but recommended):
 bash
 
 python -m venv venv source venv/bin/activate
- # On Windows use: venv\Scripts\activate
+
+# On Windows use: venv\Scripts\activate
 
 Install the required dependencies:
 
