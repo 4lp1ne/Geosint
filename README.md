@@ -87,7 +87,7 @@ The script will prompt you to either provide:
 Example of running the script:
 
 ```bash
-python geosinta.py
+python geosint.py
 ```
 
 You will be asked to provide an image input type, and then the script will perform predictions and display results.
