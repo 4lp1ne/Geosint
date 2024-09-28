@@ -1,3 +1,4 @@
+```markdown
 # GeoCLIP GPS Prediction from Images
 
 This project uses the **GeoCLIP** model to predict GPS coordinates from images. It supports image input via file paths or URLs, generates GPS predictions, displays Google Maps links, and creates interactive maps or world maps. The results can be saved to a CSV file for further use.
@@ -25,67 +26,90 @@ To run the project, you'll need the following Python packages:
 
 You can install these dependencies by running the following command:
 
-bash
-
+```bash
 pip install torch geoclip Pillow requests folium matplotlib cartopy
+```
 
+## Installation
 
-bash
+1. **Clone the repository**:
 
+   ```bash
+   git clone https://github.com/yourusername/geo-clip-prediction.git
+   cd geo-clip-prediction
+   ```
 
-git clone https://github.com/yourusername/geo-clip-prediction.git
+2. **Create and activate a virtual environment** (optional but recommended):
 
-cd geo-clip-prediction
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   ```
 
-Create and activate a virtual environment (optional but recommended):
+3. **Install the required dependencies**:
 
-bash
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-python -m venv venv source venv/bin/activate
+4. **Set up GeoCLIP model weights**:
+   Make sure you have the GeoCLIP model weights in the correct directory. If they are not available, download and place them in the appropriate folder.
 
-# On Windows use: venv\Scripts\activate
+## Usage
 
-Install the required dependencies:
-
-bash
-
-pip install -r requirements.txt
-
-Set up GeoCLIP model weights: Make sure you have the GeoCLIP model weights in the correct directory. If they are not available, download and place them in the appropriate folder.
-
-Usage
 To use the script, simply run the following command:
 
-bash
-
+```bash
 python img2loca.py
+```
 
-Features of the Script:
+### Features of the Script:
 
-Load Model Weights: The model weights are loaded safely before predictions are made.
+- **Load Model Weights**: The model weights are loaded safely before predictions are made.
+- **Image Input**: The user can provide an image via a file path or URL.
+- **Predictions**: Predict GPS locations and probabilities for the provided image.
+- **Display Results**: The results are displayed along with Google Maps links.
+- **Interactive Map**: Option to create an interactive map with Folium.
+- **World Map Plot**: Option to plot predictions on a world map using Cartopy.
+- **CSV Saving**: Option to save predictions in a CSV file.
 
-Image Input: The user can provide an image via a file path or URL.
-
-Predictions: Predict GPS locations and probabilities for the provided image.
-
-Display Results: The results are displayed along with Google Maps links.
-
-Interactive Map: Option to create an interactive map with Folium.
-
-World Map Plot: Option to plot predictions on a world map using Cartopy.
-
-CSV Saving: Option to save predictions in a CSV file.
+### Example Input
 
 The script will prompt you to either provide:
 
-Image Path: Supply the path to an image file on your local machine.
-
-Image URL: Supply the URL to an online image.
+- **Image Path**: Supply the path to an image file on your local machine.
+- **Image URL**: Supply the URL to an online image.
 
 Example of running the script:
 
-bash
-
+```bash
 python img2loca.py
+```
 
 You will be asked to provide an image input type, and then the script will perform predictions and display results.
+
+## Contributing
+
+Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions, feel free to open an issue or reach out to the project maintainer at [your-email@example.com](mailto:your-email@example.com).
+```
+
+### Explanation:
+
+- **Project Description**: The `README.md` starts with a brief explanation of what the project does.
+- **Features**: Lists the primary features provided by the script.
+- **Requirements**: Details the necessary Python packages that need to be installed.
+- **Installation**: Step-by-step instructions on how to set up the project.
+- **Usage**: Explains how to run the script and the options provided during execution.
+- **Contributing**: Encourages others to contribute to the project.
+- **License**: Mentions the license under which the project is distributed.
+- **Contact**: Provides a way for people to get in touch for support or contributions.
+
+This file can be adjusted based on your specific needs or preferences. Let me know if you need any modifications!
