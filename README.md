@@ -64,7 +64,7 @@ pip install torch geoclip Pillow requests folium matplotlib cartopy
 To use the script, simply run the following command:
 
 ```bash
-python geoint.py
+python geosint.py
 ```
 
 ### Features of the Script:
@@ -87,7 +87,7 @@ The script will prompt you to either provide:
 Example of running the script:
 
 ```bash
-python img2loca.py
+python geosinta.py
 ```
 
 You will be asked to provide an image input type, and then the script will perform predictions and display results.
