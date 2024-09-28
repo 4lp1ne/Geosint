@@ -28,9 +28,7 @@ To run the project, you'll need the following Python packages:
 
 You can install these dependencies by running the following command:
 
-```python
-pip install -r requirements.py
-```
+
 
 ```bash
 pip install torch geoclip Pillow requests folium matplotlib cartopy
