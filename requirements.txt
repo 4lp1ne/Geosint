@@ -1,0 +1,7 @@
+torch
+geoclip
+Pillow
+requests
+folium
+matplotlib
+cartopy
