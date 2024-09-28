@@ -1,9 +1,3 @@
-
-Here’s a detailed README.md file that includes the description of your project, setup instructions, installation steps, usage, and any additional information required for deployment. This will help you set up and share your project on GitHub.
-
-Example README.md File:
-markdown
-Copy code
 # GeoCLIP GPS Prediction from Images
 
 This project uses the **GeoCLIP** model to predict GPS coordinates from images. It supports image input via file paths or URLs, generates GPS predictions, displays Google Maps links, and creates interactive maps or world maps. The results can be saved to a CSV file for further use.
@@ -92,4 +86,5 @@ Example of running the script:
 bash
 
 python img2loca.py
+
 You will be asked to provide an image input type, and then the script will perform predictions and display results.
