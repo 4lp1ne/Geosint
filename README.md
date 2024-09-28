@@ -64,7 +64,7 @@ pip install torch geoclip Pillow requests folium matplotlib cartopy
 To use the script, simply run the following command:
 
 ```bash
-python img2loca.py
+python geoint.py
 ```
 
 ### Features of the Script:
