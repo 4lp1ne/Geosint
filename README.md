@@ -91,25 +91,7 @@ You will be asked to provide an image input type, and then the script will perfo
 ## Contributing
 
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions, feel free to open an issue or reach out to the project maintainer at [your-email@example.com](mailto:your-email@example.com).
+.
 ```
 
-### Explanation:
 
-- **Project Description**: The `README.md` starts with a brief explanation of what the project does.
-- **Features**: Lists the primary features provided by the script.
-- **Requirements**: Details the necessary Python packages that need to be installed.
-- **Installation**: Step-by-step instructions on how to set up the project.
-- **Usage**: Explains how to run the script and the options provided during execution.
-- **Contributing**: Encourages others to contribute to the project.
-- **License**: Mentions the license under which the project is distributed.
-- **Contact**: Provides a way for people to get in touch for support or contributions.
-
-This file can be adjusted based on your specific needs or preferences. Let me know if you need any modifications!
