@@ -5,3 +5,4 @@ requests
 folium
 matplotlib
 cartopy
+transformers>=4.53.0 # not directly required, pinned by Snyk to avoid a vulnerability
